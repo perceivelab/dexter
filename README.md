@@ -9,9 +9,11 @@ Understanding and explaining the behavior of machine learning models is essentia
 [![Paper](http://img.shields.io/badge/paper-arxiv.2404.02618-B31B1B.svg)](https://arxiv.org/abs/2510.14741)
 <p align = "center"><img src="mainfig.png"  style = "text-align:center"/></p>
 
+```bibtex
 @article{carnemolla2025dexter,
   title={DEXTER: Diffusion-Guided EXplanations with TExtual Reasoning for Vision Models},
   author={Carnemolla, Simone and Pennisi, Matteo and Samarasinghe, Sarinda and Bellitto, Giovanni and Palazzo, Simone and Giordano, Daniela and Shah, Mubarak and Spampinato, Concetto},
   journal={arXiv preprint arXiv:2510.14741},
   year={2025}
 }
+```
