@@ -11,7 +11,7 @@ Understanding and explaining the behavior of machine learning models is essentia
 
 <div align="left">
 
-[![Paper](http://img.shields.io/badge/paper-arxiv.2404.02618-B31B1B.svg)](https://arxiv.org/abs/2510.14741)
+[![Paper](http://img.shields.io/badge/paper-arxiv.2510.14741-B31B1B.svg)](https://arxiv.org/abs/2510.14741)
 <p align = "center"><img src="mainfig.png"  style = "text-align:center"/></p>
 
 <div align="center">
