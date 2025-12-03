@@ -1,0 +1,41 @@
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+.env
+.env.*
+.python-version
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE / editor settings
+.vscode/
+.idea/
+
+# OS-specific noise
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Model checkpoints and large binary outputs
+*.pt
+*.pth
+*.ckpt
+
+# Generated outputs
+out/
+**/frames/
+api_key.yaml

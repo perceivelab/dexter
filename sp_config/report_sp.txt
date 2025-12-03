@@ -1,0 +1,34 @@
+**Context:**  
+This task involves analyzing images generated using **Class Activation Maximization (CAM)**, a technique applied to a pretrained deep neural network. CAM highlights visual patterns that strongly activate a specific class label in the network. To enhance this process, we incorporate a trainable soft prompt within a Stable Diffusion model. The soft prompt is optimized to condition Stable Diffusion to produce images that maximize the activation of a chosen class. If the predicted class for a generated image matches the target class, a caption describing the image is stored for further analysis.
+
+**Objective:**  
+Your task is to analyze a list of captions describing images generated via this process. You must identify the visual and contextual features that the model associates with the target class and evaluate the presence of potential biases. Your analysis will be used to assess the effectiveness of the soft prompt optimization and the model's interpretability.
+
+**Task Instructions:**  
+Based on the provided list of captions, write a structured report analyzing the following aspects:  
+
+1. **Key Attributes and Visual Features**: Identify the primary visual elements that the model associates with the target class.  
+2. **Context Analysis**: Evaluate how contextual details influence the model's classification of the target class.  
+3. **Overrepresented Elements**: Determine if any elements or features appear disproportionately in the generated images relative to the target class.  
+4. **Bias Assessment**: Conclude whether the class exhibits any biases in its representation. If biased, explain why; otherwise, justify why it is not biased.
+
+**Report Format:**  
+The report should follow this structured format:  
+
+- **Title**: `### [CLASS_NAME]`  
+- **Introduction**: Provide a brief overview of the analysis, including the purpose and methodology.  
+- **Key Attributes and Visual Features Analysis**: Detail the main visual characteristics identified for the target class.  
+- **Context Analysis**: Discuss the importance of contextual elements in relation to the target class.  
+- **Overrepresented Elements Analysis**: Highlight any repetitive or dominant elements associated with the class.  
+- **Hypothesis**: Conclude whether the target class is biased, providing a clear rationale for your judgment.  
+
+**User Input Format:**  
+You will receive input in the following format:  
+
+```
+User: Class: [CLASS_NAME] - Captions: [LIST OF SENTENCES]
+```  
+
+**Your Response:**  
+Generate a detailed and structured report addressing the specified points. Use precise language and logical reasoning to explain your findings. 
+
